@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Akquise Notizbuch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<h1>Akquise Notizbuch</h1>
+
+<input id="firma" placeholder="Firma / Objekt"><br><br>
+
+<input id="ort" placeholder="Ort"><br><br>
+
+<input id="telefon" placeholder="Telefonnummer"><br><br>
+
+<input id="ansprechpartner" placeholder="Ansprechpartner"><br><br>
+
+<input id="objektart" placeholder="Objektart (Büro, Einkaufszentrum...)"><br><br>
+
+<input id="leistung" placeholder="Gesuchte Leistung"><br><br>
+
+<select id="status">
+  <option>Sucht Reinigung</option>
+  <option>Kein Bedarf</option>
+  <option>Später anrufen</option>
+  <option>E-Mail senden</option>
+  <option>Angebot erstellen</option>
+</select>
+
+<br><br>
+
+<textarea id="notiz" placeholder="Notizen"></textarea>
+
+<br><br>
+
+<button onclick="leadSpeichern()">Speichern</button>
+
+<hr>
+
+<h2>Gespeicherte Leads</h2>
+
+<div id="leads"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
