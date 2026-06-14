@@ -1,1 +1,24 @@
+body{
+  font-family: Arial;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
 
+input,
+textarea,
+select{
+  width: 100%;
+  padding: 10px;
+}
+
+button{
+  padding: 10px 20px;
+}
+
+.karte{
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
